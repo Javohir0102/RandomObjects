@@ -20,16 +20,16 @@ namespace RandomObjects
                 switch (selection)
                 {
                     case 1:
-                        RandomService.RandomParagraphs(count: setNumber);
+                        RandomParagraphs(count: setNumber);
                         break;
                     case 2:
-                        RandomService.RandomCountries(count: setNumber);
+                        RandomCountries(count: setNumber);
                         break;
                     case 3:
-                        RandomService.CreateRandomFullName(count: setNumber);
+                        CreateRandomFullName(count: setNumber);
                         break;
                     case 4:
-                        RandomService.GenerateEmailAddress(count: setNumber);
+                        GenerateEmailAddress(count: setNumber);
                         break;
                 }
                 Console.WriteLine("Do you want to continue? press \"yes\" or any button");
