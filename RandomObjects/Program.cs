@@ -6,6 +6,6 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        RandomService.GetMenu();
-    }
+        AllMenu.GetMenu();
+    }    
 }
